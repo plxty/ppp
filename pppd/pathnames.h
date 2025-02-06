@@ -101,7 +101,7 @@
 #define PPP_PATH_AUTHDOWN       PPP_PATH_CONFDIR "/auth-down"
 #define PPP_PATH_TTYOPT         PPP_PATH_CONFDIR "/options."
 #define PPP_PATH_PEERFILES      PPP_PATH_CONFDIR "/peers/"
-#define PPP_PATH_RESOLV         PPP_PATH_CONFDIR "/resolv.conf"
+#define PPP_PATH_RESOLV         "/run/pppd/resolv.conf"
 
 #define PPP_PATH_NET_INIT	PPP_PATH_CONFDIR "/net-init"
 #define PPP_PATH_NET_PREUP	PPP_PATH_CONFDIR "/net-pre-up"
